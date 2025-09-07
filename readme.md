@@ -38,16 +38,19 @@ This project provides a backend API with CRUD operations, category search, recom
 
 ### 1. Clone Repository
 
-git clone https://github.com/your-username/course-management-app.git
-cd course-management-app
-npm install
+- git clone https://github.com/your-username/course-management-app.git
+- cd course-management-app
+
+
+### 2. Install dependencies
+- npm install
 
 ---
 
-###  Create a .env.local file in the project root:
+### 3.  Create a .env.local file in the project root:
 MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/?retryWrites=true&w=majority
 MONGODB_DB=course_management
 
-## RUN
+## 4. RUN
 npm run dev
 
